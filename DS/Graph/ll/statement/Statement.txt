@@ -1,0 +1,48 @@
+Sourabh is fascinated about three things:
+
+1. Palindrome numbers.
+2. Modulus operation.
+3. Numbers with even number of digits.
+
+Also a number is said to be Kanetkar's number if it satisfies condition 1 and 3.
+Example: 1001 
+
+Coincidentally his teacher gave him a problem with all these three things.
+According to the problem , we have 3 numbers 'l' , 'r' and 'c'. We need to find the digit sum
+of first 'l' as well as first 'r' Kanetkar numbers modulo c and finally print the result of subtraction of 1st sum from 2nd sum modulo c. As sourabh is too busy with his PS4, he asks your help.
+
+
+Input Format:	There is only one line of input which consists of 3 numbers 'l' , 'r' and 'c'.
+			    
+
+Constraints:
+				1 <= l,r <= 100000
+				l <= r
+				1 <= c <= 60000000
+
+Input:  		4 6 1000
+
+Output:			22
+
+Explanation:    First 6 Kanetkar's Number will be:
+					11
+					22
+					33
+					44
+					55
+					66
+				sum1 = 1+1+2+2+3+3+4+4 = 20 
+				sum2 = 1+1+2+2+3+3+4+4+5+5+6+6 = 42			
+			  	
+			  	sum1 = 20%1000 = 20
+			  	sum2 = 42%1000 = 42
+
+			  	ans = (42-20)%1000 = 22%1000 = 22 
+												
+ 					
+
+
+
+
+
+

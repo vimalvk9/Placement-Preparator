@@ -1,0 +1,11 @@
+You are given a string which consists of only lowercase alphabets and numbers in it.
+Such strings are called alphanumeric strings.
+
+https://en.wikipedia.org/wiki/Alphanumeric
+
+Your task is simple, you just need to separate the numbers from the alphanumeric string
+and output their sum.
+
+
+ 
+
