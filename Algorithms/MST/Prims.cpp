@@ -23,6 +23,7 @@ int prim(vector < pair<int,int> > adj[], int seen[], int src)
 
 		if(seen[u] == 1)
 			continue;
+		
 		ans += w;
 		seen[u] = 1;
 
